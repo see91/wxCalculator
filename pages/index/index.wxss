@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome {
+  font-size: 20px;
+  color: aqua;
+}
+
+.userInfo {
+  /* border: 1px solid green; */
+}
+
+.UserInfoAvator {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.userInfoNickName {
+  /* border: 2px solid brown; */
+}
+
+
+.github{
+
+}

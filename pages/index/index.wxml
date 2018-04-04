@@ -1,0 +1,22 @@
+<!-- index.wxml -->
+<view class='container'>
+  <view>
+    <text class='welcome'>Welcome to see91 calculator</text>
+  </view>
+  <view bindtap='bindViewTap' class='userInfo'>
+    <image src='{{userInfo.avatarUrl}}' class='UserInfoAvator'></image>
+  </view>
+  <view>
+    <text class='userInfoNickName'>{{userInfo.nickName}}</text>
+  </view>
+
+  <view>
+    <button type='default' plain='{{plain}}' disabled='{{disabled}}' bindtap="toCalc">{{title}}</button>
+  </view>
+
+  <view>
+    <navigator url="../about/about" class="github" hover-class="navigator-hover">
+      <icon type="{{iconType}}" class="icon" size="15"/>   About Me
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="github">
+    <text class='text'>微信小程序不支持跳转第三方网页</text>
+    <text class='text'>手动复制GitHub地址吧</text>
+    <text class='text'>https://github.com/see91/wxCalculator.git</text>
+</view>

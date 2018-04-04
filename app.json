@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/calc/calc",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about"  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "see91计算器",
+    "navigationBarTextStyle":"black"
+  }
+}
