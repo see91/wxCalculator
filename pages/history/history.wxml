@@ -1,0 +1,4 @@
+<!--pages/history/history.wxml-->
+<view class="content">
+       <text>输入历史： 即将上线！ </text>
+</view>

@@ -3,12 +3,13 @@
     "pages/calc/calc",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/about/about"  
+    "pages/about/about",
+    "pages/history/history"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#252525",
     "navigationBarTitleText": "see91计算器",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

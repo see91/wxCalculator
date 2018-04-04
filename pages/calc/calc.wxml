@@ -1,3 +1,45 @@
-<view>
-  计算器
+<view class="content">
+  <view class="layout-top">
+    <view class="screen">
+     {{screenData}}
+    </view>
+  </view>
+    
+  <view class="layout-bottom">
+    <view class="btnGroup">
+      <view class="item orange" bindtap="clickBtn" id="{{seeclear}}">С</view>
+      <view class="item orange" bindtap="clickBtn" id="{{seeback}}">←</view>
+      <!--<view class="item orange" bindtap="clickBtn" id="{{idt}}">＋/－</view>-->
+      <view class="item orange iconBtn" bindtap="history">
+          <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>
+      </view>
+      <view class="item orange" bindtap="clickBtn" id="{{seeadd}}">＋</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{see7}}">7</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see8}}">8</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see9}}">9</view>
+      <view class="item orange" bindtap="clickBtn" id="{{seeless}}">－</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{see4}}">4</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see5}}">5</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see6}}">6</view>
+      <view class="item orange" bindtap="clickBtn" id="{{seex}}">×</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{see1}}">1</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see2}}">2</view>
+      <view class="item blue" bindtap="clickBtn" id="{{see3}}">3</view>
+      <view class="item orange" bindtap="clickBtn" id="{{seedivision}}">÷</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue zero" bindtap="clickBtn" id="{{see0}}">0</view>
+      <view class="item blue" bindtap="clickBtn" id="{{seepoint}}">.</view>
+      <view class="item green" bindtap="clickBtn" id="{{seeequal}}">＝</view>
+    </view>
+  </view>
+
+
+  
 </view>

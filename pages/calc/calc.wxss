@@ -1,1 +1,85 @@
 /* pages/calc/calc.wxss */
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  color: white;
+  background-color:#252525;
+  font-family: "Microsoft YaHei";
+  overflow: hidden;
+}
+
+.layout-top {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+.layout-bottom {
+  width: 100%;  
+}
+
+.screen {
+  text-align: right;
+  width: 100%;
+  padding: 0 10rpx;
+  font-weight: bold;
+  font-size: 60px;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+}
+
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  min-height: 5rem;
+}
+
+.item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+.item:active {
+  background-color: green;
+}
+
+.zero {
+  width: 50%;
+}
+
+.orange {
+  color: #fef4e9;
+  background: #272727;
+  font-weight: bold;
+}
+
+.blue {
+  color: #d9eef7;
+  background-color: #252525;
+}
+
+.green {
+  background: green;
+}
+
+.iconBtn {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
